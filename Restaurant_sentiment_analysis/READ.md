@@ -38,7 +38,6 @@ kakaomap 검색을 기반으로 강남구 맛집 리뷰를 크롤링
 - GridSearchCV로 하이퍼파라미터(C) 튜닝<br>
 - Best C = 10<br>
 - AUC: 0.925<br>
-<br>
 **Random Forest**
 - 파라미터 튜닝 (max_depth, n_estimators, min_samples_leaf 등)<br>
 - 최적 조합: 정확도 74.28%<br>
