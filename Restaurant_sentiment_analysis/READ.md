@@ -35,19 +35,19 @@ kakaomap 검색을 기반으로 강남구 맛집 리뷰를 크롤링
 <br>
 ## 🤖 모델 구축 및 성능 비교
 **Logistic Regression**
-GridSearchCV로 하이퍼파라미터(C) 튜닝
-Best C = 10
-AUC: 0.925
+- GridSearchCV로 하이퍼파라미터(C) 튜닝<br>
+- Best C = 10<br>
+- AUC: 0.925<br>
 <br>
 **Random Forest**
-파라미터 튜닝 (max_depth, n_estimators, min_samples_leaf 등)
-최적 조합: 정확도 74.28%
-AUC: 0.863
+- 파라미터 튜닝 (max_depth, n_estimators, min_samples_leaf 등)<br>
+- 최적 조합: 정확도 74.28%<br>
+- AUC: 0.863<br>
 <br>
 **LightGBM**
-HyperOpt + 베이지안 최적화(TPE) 적용
-정교한 파라미터 설정을 통한 성능 최적화
-AUC: 0.915
+- HyperOpt + 베이지안 최적화(TPE) 적용<br>
+- 정교한 파라미터 설정을 통한 성능 최적화<br>
+- AUC: 0.915<br>
 📌 Logistic Regression 모델이 가장 높은 AUC(0.925)를 달성함
 <br>
 <br>
