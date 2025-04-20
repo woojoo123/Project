@@ -61,7 +61,7 @@ X-ray 영상 판독에는 시간과 전문성이 필요하므로, 자동 분석 
 <br>
 
 ## 🖼 탐지 결과 예시
-![image](https://github.com/user-attachments/assets/a064a93d-f6ea-4e87-ab42-d56cd116c92a)
+![image](https://github.com/user-attachments/assets/034b4f4e-328c-41b7-bf81-6a19839e363b)
 
 - 좌측: 원본 X-ray 이미지<br>
 - 우측: YOLO가 예측한 병변 위치 바운딩 박스<br>
